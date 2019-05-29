@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{7B973953-58BE-4460-AFED-57325F3D25D1}</ProjectGuid>
+    <RootNamespace>Explorer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Image Include="Finder.ico" />
+    <Image Include="Ricardo\0.bmp" />
+    <Image Include="Ricardo\1.bmp" />
+    <Image Include="Ricardo\10.bmp" />
+    <Image Include="Ricardo\100.bmp" />
+    <Image Include="Ricardo\101.bmp" />
+    <Image Include="Ricardo\102.bmp" />
+    <Image Include="Ricardo\103.bmp" />
+    <Image Include="Ricardo\104.bmp" />
+    <Image Include="Ricardo\105.bmp" />
+    <Image Include="Ricardo\106.bmp" />
+    <Image Include="Ricardo\107.bmp" />
+    <Image Include="Ricardo\108.bmp" />
+    <Image Include="Ricardo\109.bmp" />
+    <Image Include="Ricardo\11.bmp" />
+    <Image Include="Ricardo\110.bmp" />
+    <Image Include="Ricardo\111.bmp" />
+    <Image Include="Ricardo\12.bmp" />
+    <Image Include="Ricardo\13.bmp" />
+    <Image Include="Ricardo\14.bmp" />
+    <Image Include="Ricardo\15.bmp" />
+    <Image Include="Ricardo\16.bmp" />
+    <Image Include="Ricardo\17.bmp" />
+    <Image Include="Ricardo\18.bmp" />
+    <Image Include="Ricardo\19.bmp" />
+    <Image Include="Ricardo\2.bmp" />
+    <Image Include="Ricardo\20.bmp" />
+    <Image Include="Ricardo\21.bmp" />
+    <Image Include="Ricardo\22.bmp" />
+    <Image Include="Ricardo\23.bmp" />
+    <Image Include="Ricardo\24.bmp" />
+    <Image Include="Ricardo\25.bmp" />
+    <Image Include="Ricardo\26.bmp" />
+    <Image Include="Ricardo\27.bmp" />
+    <Image Include="Ricardo\28.bmp" />
+    <Image Include="Ricardo\29.bmp" />
+    <Image Include="Ricardo\3.bmp" />
+    <Image Include="Ricardo\30.bmp" />
+    <Image Include="Ricardo\31.bmp" />
+    <Image Include="Ricardo\32.bmp" />
+    <Image Include="Ricardo\33.bmp" />
+    <Image Include="Ricardo\34.bmp" />
+    <Image Include="Ricardo\35.bmp" />
+    <Image Include="Ricardo\36.bmp" />
+    <Image Include="Ricardo\37.bmp" />
+    <Image Include="Ricardo\38.bmp" />
+    <Image Include="Ricardo\39.bmp" />
+    <Image Include="Ricardo\4.bmp" />
+    <Image Include="Ricardo\40.bmp" />
+    <Image Include="Ricardo\41.bmp" />
+    <Image Include="Ricardo\42.bmp" />
+    <Image Include="Ricardo\43.bmp" />
+    <Image Include="Ricardo\44.bmp" />
+    <Image Include="Ricardo\45.bmp" />
+    <Image Include="Ricardo\46.bmp" />
+    <Image Include="Ricardo\47.bmp" />
+    <Image Include="Ricardo\48.bmp" />
+    <Image Include="Ricardo\49.bmp" />
+    <Image Include="Ricardo\5.bmp" />
+    <Image Include="Ricardo\50.bmp" />
+    <Image Include="Ricardo\51.bmp" />
+    <Image Include="Ricardo\52.bmp" />
+    <Image Include="Ricardo\53.bmp" />
+    <Image Include="Ricardo\54.bmp" />
+    <Image Include="Ricardo\55.bmp" />
+    <Image Include="Ricardo\56.bmp" />
+    <Image Include="Ricardo\57.bmp" />
+    <Image Include="Ricardo\58.bmp" />
+    <Image Include="Ricardo\59.bmp" />
+    <Image Include="Ricardo\6.bmp" />
+    <Image Include="Ricardo\60.bmp" />
+    <Image Include="Ricardo\61.bmp" />
+    <Image Include="Ricardo\62.bmp" />
+    <Image Include="Ricardo\63.bmp" />
+    <Image Include="Ricardo\64.bmp" />
+    <Image Include="Ricardo\65.bmp" />
+    <Image Include="Ricardo\66.bmp" />
+    <Image Include="Ricardo\67.bmp" />
+    <Image Include="Ricardo\68.bmp" />
+    <Image Include="Ricardo\69.bmp" />
+    <Image Include="Ricardo\7.bmp" />
+    <Image Include="Ricardo\70.bmp" />
+    <Image Include="Ricardo\71.bmp" />
+    <Image Include="Ricardo\72.bmp" />
+    <Image Include="Ricardo\73.bmp" />
+    <Image Include="Ricardo\74.bmp" />
+    <Image Include="Ricardo\75.bmp" />
+    <Image Include="Ricardo\76.bmp" />
+    <Image Include="Ricardo\77.bmp" />
+    <Image Include="Ricardo\78.bmp" />
+    <Image Include="Ricardo\79.bmp" />
+    <Image Include="Ricardo\8.bmp" />
+    <Image Include="Ricardo\80.bmp" />
+    <Image Include="Ricardo\81.bmp" />
+    <Image Include="Ricardo\82.bmp" />
+    <Image Include="Ricardo\83.bmp" />
+    <Image Include="Ricardo\84.bmp" />
+    <Image Include="Ricardo\85.bmp" />
+    <Image Include="Ricardo\86.bmp" />
+    <Image Include="Ricardo\87.bmp" />
+    <Image Include="Ricardo\88.bmp" />
+    <Image Include="Ricardo\89.bmp" />
+    <Image Include="Ricardo\9.bmp" />
+    <Image Include="Ricardo\90.bmp" />
+    <Image Include="Ricardo\91.bmp" />
+    <Image Include="Ricardo\92.bmp" />
+    <Image Include="Ricardo\93.bmp" />
+    <Image Include="Ricardo\94.bmp" />
+    <Image Include="Ricardo\95.bmp" />
+    <Image Include="Ricardo\96.bmp" />
+    <Image Include="Ricardo\97.bmp" />
+    <Image Include="Ricardo\98.bmp" />
+    <Image Include="Ricardo\99.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Finder.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="flex.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Search.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="System.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Search.h" />
+    <ClInclude Include="System.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

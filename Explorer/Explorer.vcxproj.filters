@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Gif">
+      <UniqueIdentifier>{da4dcb3a-0401-4d47-b4d0-55449631e19a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Finder.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Ricardo\0.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\1.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\2.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\3.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\4.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\5.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\6.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\7.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\8.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\9.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\10.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\11.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\12.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\13.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\14.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\15.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\16.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\17.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\18.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\19.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\20.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\21.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\22.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\23.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\24.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\25.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\26.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\27.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\28.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\29.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\30.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\31.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\32.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\33.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\34.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\35.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\36.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\37.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\38.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\39.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\40.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\41.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\42.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\43.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\44.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\45.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\46.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\47.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\48.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\49.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\50.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\51.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\52.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\53.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\54.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\55.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\56.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\57.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\58.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\59.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\60.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\61.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\62.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\63.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\64.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\65.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\66.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\67.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\68.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\69.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\70.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\71.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\72.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\73.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\74.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\75.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\76.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\77.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\78.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\79.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\80.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\81.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\82.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\83.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\84.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\85.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\86.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\87.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\88.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\89.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\90.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\91.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\92.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\93.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\94.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\95.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\96.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\97.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\98.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\99.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\100.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\101.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\102.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\103.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\104.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\105.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\106.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\107.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\108.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\109.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\110.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+    <Image Include="Ricardo\111.bmp">
+      <Filter>Gif</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Finder.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="flex.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Search.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Search.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
